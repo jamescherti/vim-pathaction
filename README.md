@@ -9,9 +9,9 @@ Execute pathaction.yaml rules using the pathaction command-line tool from Vim.
 
 ### Keybindings
 
-Here are two examples of key bindings to press <Leader>ee to run the main tag and <Leader>ei the install tag:
+Below are two examples of key bindings (`<leader>ee` to execute the "main" tag and `<leader>ei` to execute the "install" tag):
 
-```
+```vim
 nnoremap <leader>ee :call pathaction#run("main")<CR>
 nnoremap <leader>ei :call pathaction#run("install")<CR>
 ```
