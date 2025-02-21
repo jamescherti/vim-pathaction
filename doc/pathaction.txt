@@ -1,0 +1,25 @@
+*pathaction.txt*    Execute the pathaction command-line tool from Vim
+
+Author: James Cherti (website: https://www.jamescherti.com )
+GitHub repository: https://github.com/jamescherti/vim-pathaction
+License: MIT
+
+==============================================================================
+1. Introduction                                                   *pathaction*
+
+
+Execute pathaction.yaml rules using the pathaction command-line tool from
+Vim.
+
+(The pathaction command-line tool enables the execution of specific commands on
+targeted files or directories. Its key advantage lies in its flexibility,
+allowing users to handle various types of files simply by passing the file or
+directory as an argument to the pathaction tool. The tool uses a
+.pathaction.yaml rule-set file to determine which command to execute.
+Additionally, Jinja2 templating can be employed in the rule-set file to further
+customize the commands.)
+
+Usage:
+>
+  :call pathaction#run("main")
+<
