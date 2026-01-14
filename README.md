@@ -18,7 +18,7 @@ nnoremap <leader>ei :call pathaction#run("install")<CR>
 
 ## Author and license
 
-Copyright (C) 2021-2025 [James Cherti](https://www.jamescherti.com).
+Copyright (C) 2021-2026 [James Cherti](https://www.jamescherti.com).
 
 Distributed under terms of the MIT license.
 
