@@ -1,4 +1,4 @@
-# pathaction.el - Execute commands on any files directly from Vim by applying rule definitions through the `pathaction` cli
+# Vim Plugin: pathaction - Execute commands on any files directly from Vim by applying rule definitions through the `pathaction` cli
 
 The **vim-pathaction** Vim plugin provides an interface for executing `.pathaction.yaml` rules directly from Vim through the `pathaction` command-line tool.
 
