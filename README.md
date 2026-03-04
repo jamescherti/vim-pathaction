@@ -8,7 +8,7 @@ This tool is for software developers who manage multiple projects across diverse
 
 If this package helps your workflow, please show your support by **⭐ starring pathaction.el on GitHub** to help more software developers discover its benefits.
 
-## Customizations
+## Usage
 
 ### Keybindings
 
@@ -17,7 +17,20 @@ Below are two examples of key bindings (`<leader>ee` to execute the "main" tag a
 ```vim
 nnoremap <leader>ee :call pathaction#run("main")<CR>
 nnoremap <leader>ei :call pathaction#run("install")<CR>
+nnoremap <leader>ed :call pathaction#run("debug")<CR>
 ```
+
+### Allow the directory explicitly
+
+By default, `pathaction` does not read rule-set files such as `.pathaction.yaml` from arbitrary directories. The target directory must be explicitly permitted.
+
+Run the following command to allow `pathaction` to read rule-set files from the project directory:
+
+```
+pathaction --allow-dir ~/projects
+```
+
+After this command completes, `.pathaction.yaml` files located in the `~/projects` directory will be recognized and processed.
 
 ## Author and license
 
