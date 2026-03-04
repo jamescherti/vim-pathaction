@@ -1,6 +1,6 @@
 # Vim Plugin: pathaction - A Vim plugin for executing `pathaction`, the universal Makefile for the entire filesystem
 
-The **vim-pathaction** Vim plugin provides an interface for executing `.pathaction.yaml` rules directly from Vim through the `pathaction` command-line tool.
+The **vim-pathaction** Vim plugin provides an interface for executing `.pathaction.yaml` rules directly from Vim through the [pathaction cli](https://github.com/jamescherti/pathaction), a flexible tool for running commands on files and directories.
 
 Think of `pathaction` like a Makefile for your entire filesystem. It uses a `.pathaction.yaml` file to figure out which command to run, and you can even use Jinja2 templating to make those commands dynamic. You can also use tags to define multiple actions for the exact same file type, like setting up one tag to run a script, and another to debug it.
 
