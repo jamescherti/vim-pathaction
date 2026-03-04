@@ -43,5 +43,5 @@ You can also install this Vim plugin with any third-party plugin manager such as
 ## Links
 
 - [vim-pathaction @GitHub](https://github.com/jamescherti/vim-pathaction)
-- The `pathaction` command-line tool (requirement): [pathaction](https://github.com/jamescherti/pathaction)
-- For Emacs users: [pathaction.el @GitHub](https://github.com/jamescherti/pathaction.el), an Emacs package that allows executing the `pathaction` command-line tool directly from Emacs.
+- The `pathaction` command-line tool (requirement): [pathaction cli](https://github.com/jamescherti/pathaction)
+- For Emacs users: [pathaction.el](https://github.com/jamescherti/pathaction.el), an Emacs package that allows executing the `pathaction` command-line tool directly from Emacs.
