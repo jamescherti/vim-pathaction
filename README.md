@@ -53,6 +53,6 @@ You can also install this Vim plugin with any third-party plugin manager such as
 
 ## Links
 
-- [vim-pathaction @GitHub](https://github.com/jamescherti/vim-pathaction)
+- [vim-pathaction](https://github.com/jamescherti/vim-pathaction), a Vim plugin that allows executing the `pathaction` command-line tool directly from Vim.
 - The `pathaction` command-line tool (requirement): [pathaction cli](https://github.com/jamescherti/pathaction)
 - For Emacs users: [pathaction.el](https://github.com/jamescherti/pathaction.el), an Emacs package that allows executing the `pathaction` command-line tool directly from Emacs.
